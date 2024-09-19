@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="UITest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-09-19T18:31:33" hostname="DESKTOP-FPTH9EJ" time="0.684">
+  <properties/>
+  <testcase name="division()" classname="UITest" time="0.016"/>
+  <testcase name="equality()" classname="UITest" time="0.001"/>
+  <testcase name="multiplication()" classname="UITest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

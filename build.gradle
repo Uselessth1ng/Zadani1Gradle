@@ -1,0 +1,34 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+test {
+    test {
+        testLogging {
+            events "passed", "skipped", "failed", "standardOut", "standardError"
+            exceptionFormat "full"
+        }
+        useJUnitPlatform()
+    }
+    useJUnitPlatform()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:+'
+    testImplementation 'io.qameta.allure:allure-junit5:+'
+}
+
+subprojects {
+    apply plugin: 'java'
+    dependencies {
+        testImplementation 'org.junit.jupiter:junit-jupiter:+'
+        testImplementation 'io.qameta.allure:allure-junit5:+'
+    }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ApiTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-09-19T18:31:26" hostname="DESKTOP-FPTH9EJ" time="0.159">
+  <properties/>
+  <testcase name="subtraction()" classname="ApiTest" time="0.044"/>
+  <testcase name="addition()" classname="ApiTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
